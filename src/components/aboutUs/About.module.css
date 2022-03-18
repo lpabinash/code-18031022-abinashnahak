@@ -1,0 +1,107 @@
+body {
+  background: #ffffff;
+}
+.heading {
+  width: 234px;
+  height: 70px;
+  padding-left: 69px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 110%;
+
+  align-items: center;
+
+  color: #000000;
+}
+h2 {
+  margin-top: -0.5rem;
+}
+
+h3 {
+  width: 300px;
+  height: 40px;
+  padding-left: 69px;
+  margin-top: -2rem;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+h4 {
+  margin-top: -0.5rem;
+}
+
+.about_container {
+  display: flex;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.pic_container {
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  background-size: cover;
+  position: relative;
+}
+
+.sizes {
+  position: absolute;
+  width: 80%;
+  height: 100px;
+  top: 85%;
+  left: 10%;
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.btn-group {
+  display: flex;
+  margin-top: 25px;
+}
+
+.btn-group .btn {
+  width: 25%;
+  height: 30px;
+  margin-left: 30px;
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.book-btn {
+  width: 30%;
+  height: 50px;
+  margin-left: 20px;
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 10px;
+}
+
+.sizes h3 {
+  position: absolute;
+  top: 25px;
+}
+
+.sub_container {
+  width: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
